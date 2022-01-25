@@ -198,6 +198,15 @@ html {
   display: flex;
   justify-content: center;
 }
+
+.social-list-item + .social-list-item {
+  margin-left: 10px;
+}
+
+.social-item-icon {
+  fill: currentColor;
+}
+
 .social-item-link {
   width: 44px;
   height: 44px;
@@ -206,8 +215,12 @@ html {
   align-items: center;
   color: #afb1b8;
 }
-.social-list-item + .social-list-item {
-  margin-left: 10px;
+
+.social-item-link:hover,
+:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border-radius: 50%;
 }
 
 .button:hover,
