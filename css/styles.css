@@ -73,6 +73,7 @@ html {
 .adress-item-icon {
   margin-right: 10px;
 }
+
 .adress-list .adress-item + .adress-item {
   margin-left: 30px;
 }
@@ -115,10 +116,7 @@ html {
   color: #757575;
 }
 
-.adress-list a:hover {
-  color: var(--accent-color);
-}
-
+.adress-list a:hover,
 .adress-list a:focus {
   color: var(--accent-color);
 }
@@ -224,7 +222,7 @@ html {
 }
 
 .social-item-link:hover,
-:focus {
+.social-item-link:focus {
   background-color: var(--accent-color);
   color: #ffffff;
   border-radius: 50%;
@@ -425,10 +423,7 @@ html {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-adress a:hover {
-  color: var(--accent-color);
-}
-
+.footer-adress a:hover,
 .footer-adress a:focus {
   color: var(--accent-color);
 }
