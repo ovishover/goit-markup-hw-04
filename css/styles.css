@@ -69,7 +69,7 @@ html {
 }
 
 .adress-list .adress-item + .adress-item {
-  margin-left: 30px;
+  margin-left: var(--margin-calc);
 }
 
 .link {
@@ -88,6 +88,14 @@ html {
   fill: currentColor;
 }
 
+.benefit-image {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: var(--margin-calc);
+}
 .nav-list {
   font-weight: 500;
   font-size: 14px;
